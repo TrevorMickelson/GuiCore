@@ -116,3 +116,8 @@ Items:
     Slot: 15
 
 ```
+
+### Dependencies
+- McaimCore
+- PlaceholderAPI (optional)
+- Vault (optional)
