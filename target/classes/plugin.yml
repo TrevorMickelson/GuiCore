@@ -1,0 +1,10 @@
+name: GuiCore
+author: CodePunisher
+version: 1.0
+main: com.codepunisher.guicore.GuiCorePlugin
+softdepend:
+  - Vault
+  - PlaceHolderAPI
+depend:
+  - McAimCore
+api-version: 1.16
