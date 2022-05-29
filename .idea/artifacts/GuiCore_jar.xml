@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="GuiCore:jar">
-    <output-path>$USER_HOME$/AppData/Roaming/VisualSpigot/minecraft_servers/kG98Bd5sX9/plugins</output-path>
+    <output-path>$USER_HOME$/Desktop</output-path>
     <root id="archive" name="GuiCore.jar">
       <element id="module-output" name="GuiCore" />
     </root>

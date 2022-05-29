@@ -5,6 +5,5 @@ main: com.codepunisher.guicore.GuiCorePlugin
 softdepend:
   - Vault
   - PlaceHolderAPI
-depend:
-  - McAimCore
+  - HeadDatabase
 api-version: 1.16

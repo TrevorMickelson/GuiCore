@@ -1,20 +1,22 @@
 package com.codepunisher.guicore.models;
 
-import com.mcaim.core.util.Pair;
+import com.codepunisher.guicore.util.Pair;
+import lombok.Getter;
 
+import java.util.ArrayList;
+import java.util.List;
+
+@Getter
 public final class CustomCost {
     private final double vaultCost;
-    private Pair<String, Integer> keyCost;
+    private List<Pair<String, Integer>> keyCost = new ArrayList<>();
 
     public CustomCost(double vaultCost) {
         this.vaultCost = vaultCost;
     }
 
-    public CustomCost(double vaultCost, String key, int amount) {
+    public CustomCost(double vaultCost, List<Pair<String, Integer>> keyCost) {
         this(vaultCost);
-        keyCost = new Pair<>(key, amount);
+        this.keyCost = keyCost;
     }
-
-    public double getVaultCost() { return vaultCost; }
-    public Pair<String, Integer> getKeyCost() { return keyCost; }
 }

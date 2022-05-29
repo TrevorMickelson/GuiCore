@@ -1,7 +1,6 @@
 package com.codepunisher.guicore.events;
 
 import com.codepunisher.guicore.models.CustomClick;
-import com.mcaim.core.util.CoreEvent;
 import org.bukkit.entity.Player;
 
 public final class CustomGuiClickEvent extends CoreEvent {

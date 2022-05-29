@@ -9,7 +9,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae0ed95-297f-44ff-bbad-c92e591bb8fa" name="Changes" comment="" />
+    <list default="true" id="fae0ed95-297f-44ff-bbad-c92e591bb8fa" name="Changes" comment="Full Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_flowpowered_flow_math_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__me_lucko_helper_5_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__me_lucko_shadow_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__me_lucko_shadow_bukkit_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_expiringmap_0_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_kyori_event_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/config/ConfigFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/events/CoreEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/util/ItemUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/util/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GuiCore_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GuiCore_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_16_R0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_16_R0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_16_1_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_17_1_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuiCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GuiCore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/GuiCorePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/GuiCorePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/commands/GuiCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/commands/GuiCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/commands/GuiCoreCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/commands/GuiCoreCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/commands/SubCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/config/GuiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/config/GuiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/config/GuiConfigAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/config/GuiConfigAdder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/config/GuiConfigRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/config/GuiConfigRetriever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/events/CustomGuiClickEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/events/CustomGuiClickEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/events/CustomGuiOpenEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/events/CustomGuiOpenEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/models/CustomClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/models/CustomClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/models/CustomCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/models/CustomCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/models/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codepunisher/guicore/models/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/example.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/example.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/GuiCorePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/GuiCorePlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/commands/GuiCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/commands/GuiCommands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/commands/GuiCoreCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/commands/GuiCoreCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/commands/SubCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/config/GuiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/config/GuiConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/config/GuiConfigAdder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/config/GuiConfigAdder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/config/GuiConfigRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/config/GuiConfigRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/config/GuiConfigRetriever.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/config/GuiConfigRetriever.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/events/CustomGuiClickEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/events/CustomGuiClickEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/events/CustomGuiOpenEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/events/CustomGuiOpenEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/listeners/GuiClickListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/listeners/GuiClickListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/CustomClick$CustomClickBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/CustomClick$CustomClickBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/CustomClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/CustomClick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/CustomCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/CustomCost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/Gui$GuiBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/Gui$GuiBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codepunisher/guicore/models/Gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/example.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/example.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,13 +98,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/VisualSpigot/minecraft_servers/kG98Bd5sX9/plugins/McaimCore.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15429688" />
-    <property name="project.structure.side.proportion" value="0.2" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24022989&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.codepunisher.guicore.events" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -70,6 +136,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639639172905</updated>
+      <workItem from="1653771157992" duration="9375000" />
+      <workItem from="1653788018550" duration="1114000" />
+      <workItem from="1653804215672" duration="6798000" />
     </task>
     <task id="LOCAL-00001" summary="Update main class slightly">
       <created>1639703552796</created>
@@ -87,6 +156,9 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

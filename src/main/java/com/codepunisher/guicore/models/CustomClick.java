@@ -1,8 +1,8 @@
 package com.codepunisher.guicore.models;
 
 import com.codepunisher.guicore.GuiCorePlugin;
-import com.mcaim.core.item.ItemUtil;
-import com.mcaim.core.util.Pair;
+import com.codepunisher.guicore.util.ItemUtil;
+import com.codepunisher.guicore.util.Pair;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -79,15 +79,42 @@ public final class CustomClick {
                 return false;
         }
 
-        Pair<String, Integer> itemKey = customCost.getKeyCost();
+        if (!customCost.getKeyCost().isEmpty()) {
+            List<Pair<String, Integer>> itemKeys = customCost.getKeyCost();
+            boolean hasEnoughItems = true;
 
-        if (itemKey != null)
-            return hasEnoughCustomItems(player, itemKey.getKey(), itemKey.getValue());
+            for (Pair<String, Integer> pair : itemKeys) {
+                if (!hasEnoughCustomItems(player, pair.getKey(), pair.getValue())) {
+                    hasEnoughItems = false;
+                }
+            }
+
+            if (hasEnoughItems)
+                removeItemKeyItemsFromInventory(player);
+
+            return hasEnoughItems;
+        }
 
         return true;
     }
 
-    private boolean hasEnoughCustomItems(Player player, String key, int gemCost) {
+    private void removeItemKeyItemsFromInventory(Player player) {
+        List<Pair<String, Integer>> itemKeys = customCost.getKeyCost();
+
+        for (Pair<String, Integer> pair : itemKeys) {
+            for (ItemStack item : player.getInventory().getContents()) {
+                if (item == null)
+                    continue;
+
+                if (!ItemUtil.hasUniqueKey(item, pair.getKey()))
+                    continue;
+
+                item.setAmount(item.getAmount() - pair.getValue());
+            }
+        }
+    }
+
+    private boolean hasEnoughCustomItems(Player player, String key, int value) {
         int itemCounter = 0;
 
         // Counting all gems in the players inventory
@@ -103,7 +130,7 @@ public final class CustomClick {
 
         // Making sure the gem count is
         // greater or equal to the gem cost
-        return itemCounter >= gemCost;
+        return itemCounter >= value;
     }
 
     public static CustomClickBuilder create() {

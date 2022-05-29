@@ -1,7 +1,7 @@
 package com.codepunisher.guicore.models;
 
 import com.codepunisher.guicore.GuiCorePlugin;
-import com.mcaim.core.util.Util;
+import com.codepunisher.guicore.util.Util;
 import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

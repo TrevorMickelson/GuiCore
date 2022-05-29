@@ -1,7 +1,6 @@
 package com.codepunisher.guicore.config;
 
 import com.codepunisher.guicore.GuiCorePlugin;
-import com.mcaim.core.item.ItemBuild;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -58,6 +57,7 @@ public final class GuiConfigAdder extends GuiConfig {
     }
 
     private void addItemStackToFile(ItemStack item, String path) {
+        GuiCorePlugin corePlugin = GuiCorePlugin.getInstance();
         ItemMeta meta = item.getItemMeta();
 
         if (meta != null) {
@@ -87,6 +87,16 @@ public final class GuiConfigAdder extends GuiConfig {
         }
 
         config.set(path + "Material", item.getType().name());
+
+        // Head database support
+        if (corePlugin.isHeadDataBaseApiEnabled()) {
+            String id = corePlugin.getHeadDatabaseApi().getItemID(item);
+
+            if (id != null) {
+                config.set(path + "HeadValue", id);
+            }
+        }
+
         config.set(path + "Amount", item.getAmount());
     }
 }

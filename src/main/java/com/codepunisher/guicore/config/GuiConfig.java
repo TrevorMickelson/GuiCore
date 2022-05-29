@@ -1,7 +1,6 @@
 package com.codepunisher.guicore.config;
 
 import com.codepunisher.guicore.GuiCorePlugin;
-import com.mcaim.core.configuration.ConfigFile;
 
 public class GuiConfig extends ConfigFile {
     protected static final String SECTION = "Items";

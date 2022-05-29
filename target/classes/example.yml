@@ -70,7 +70,9 @@ Items:
       # currency implementation.
       #
       # Gem is the key, 100 is the cost
-      ItemKey: "Gem:100"
+      ItemKeys:
+        - "GEM:100"
+        - "RUBY:100"
     Slot: 11
   # Simplest form of an item
   '1':
@@ -90,3 +92,15 @@ Items:
       Message: "&5&lDiscord Link &flink.omg.discord.blah.blahblahblahblahb.wikihow"
       CloseInventory: true
     Slot: 15
+  # Head example
+  '3':
+    ItemStack:
+      Name: "&b&lI'm a head"
+      Lore:
+        - "&7&oYo yo yo"
+      Material: PLAYER_HEAD
+      HeadValue: "7129"
+    ClickActions:
+      Message: "Suck my left nut"
+      CloseInventory: false
+    Slot: 16

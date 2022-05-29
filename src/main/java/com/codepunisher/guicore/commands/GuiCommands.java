@@ -1,25 +1,18 @@
 package com.codepunisher.guicore.commands;
 
 import com.codepunisher.guicore.events.CustomGuiOpenEvent;
-import com.codepunisher.guicore.models.Gui;
-import com.mcaim.core.command.CommandRegistry;
-import com.mcaim.core.command.QuickCommand;
+import com.codepunisher.guicore.models.Gui;;
+import me.lucko.helper.Commands;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
-import java.util.LinkedList;
-
 public final class GuiCommands {
-    private final LinkedList<String> commands = new LinkedList<>();
-
     public void registerCommandToOpenGui(String command, Gui gui) {
-        commands.add(command);
-
-        QuickCommand.create()
+        Commands.create()
                 .assertPlayer()
                 .assertPermission(gui.getPermission())
-                .register(command, sender -> {
-                    Player player = (Player) sender;
+                .handler((c) -> {
+                    Player player = c.sender();
 
                     CustomGuiOpenEvent guiOpenEvent = new CustomGuiOpenEvent(player, gui);
                     Bukkit.getPluginManager().callEvent(guiOpenEvent);
@@ -28,10 +21,6 @@ public final class GuiCommands {
                         return;
 
                     gui.open(player);
-                });
-    }
-
-    public void unRegisterAllCommands() {
-        commands.forEach(CommandRegistry::unRegister);
+                }).register(command);
     }
 }
